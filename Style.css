@@ -1,0 +1,104 @@
+.logo-container{
+    display: inline;
+    padding: 10px;
+}
+
+article{
+    margin: 12px;
+}
+
+figure{
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+figcaption{
+    margin-left: 10px;
+    font-size: 0.9rem;
+
+}
+
+label{
+    display: block;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+#main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+}
+
+nav{
+    background-color: #2d3436;
+    margin: 1%
+}
+
+
+footer{
+    background-color: #2d3436;
+    padding: 20px;
+    color: white;
+}
+
+.section-footer{
+    display: inline;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Flist{
+
+    display: inline;
+    padding: 10px;
+    margin-left: 5%;
+
+    
+}
+span{
+    
+    color : #d35400 ;
+}
+
+
+
+fieldset{
+    border: 0px;
+}
+
+.input-group{
+    padding: 7px;
+}
+
+input[type="email"]{
+    padding: 7px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 0px;
+    background-color: #d35400;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 60%;
+    font-size: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
