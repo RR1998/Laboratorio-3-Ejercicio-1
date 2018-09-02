@@ -1,0 +1,31 @@
+.white{
+    background-image: linear-gradient(0deg,white,white);
+
+}
+.white:hover{
+    background-blend-mode: darken;
+    background-color: rgb(255, 0, 0,0.5);
+}
+.black{
+    background: black;
+    color: white;
+    }
+.black:hover{
+    background-blend-mode: lighten;
+    background-color:  rgb(255, 0, 0,0.5);
+}
+td{
+    height: 4em ;
+    width: 4em
+;
+}
+div{
+    text-align: center;
+}
+
+#tablero .selccionador {
+    display: none;
+}
+#tablero td:hover .selccionador{
+    display: block;
+}
