@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajedrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chess</h1>
+<table id="tablero">
+    <tr>
+    <td class="white"><div class="selccionador">torre</div> </td>
+        <td class="black"><div class="selccionador">caballo </div> </td>
+        <td class="white"><div class="selccionador">Alfil</div> </td>
+        <td class="black"><div class="selccionador">Reina</div></td>
+        <td class="white"><div class="selccionador">Rey</div></td>
+        <td class="black"><div class="selccionador">Alfil</div></td>
+        <td class="white"><div class="selccionador">Caballo</div> </td>
+        <td class="black"><div class="selccionador">Torre</div></td>
+    </tr>
+    <tr>
+        <td class="black"> <div class="selccionador">Peon</div> </td>
+        <td class="white"><div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div> </td>
+        <td class="white"><div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div> </td>
+        <td class="white"><div class="selccionador">Peon</div>  </td>
+        <td class="black"><div class="selccionador">Peon</div> </td>
+        <td class="white"><div class="selccionador">Peon</div>  </td>
+    </tr>
+    <tr>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+    </tr>
+    <tr>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+    </tr>
+    <tr>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+    </tr>
+    <tr>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+        <td class="black"></td>
+        <td class="white"> </td>
+    </tr>
+    <tr>
+        <td class="white"> <div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div></td>
+        <td class="white"><div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div></td>
+        <td class="white"><div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div></td>
+        <td class="white"><div class="selccionador">Peon</div> </td>
+        <td class="black"><div class="selccionador">Peon</div></td>
+    </tr>
+    <tr>
+        <td class="black"><div class="selccionador">torre</div></td>
+        <td class="white"><div class="selccionador">caballo </div> </div> </td>
+        <td class="black"><div class="selccionador">Alfil</div></td>
+        <td class="white"><div class="selccionador">Rina</div> </td>
+        <td class="black"><div class="selccionador">Rey</div></td>
+        <td class="white"><div class="selccionador">Alfil</div> </td>
+        <td class="black"><div class="selccionador">Cballo</div></td>
+        <td class="white"><div class="selccionador">Torre</div> </td>
+    </tr>
+</table>
+<footer>
+    <p>Roberto Alexander Rubio Castillo</p>
+    <p>00259517</p>
+    <p>GITHUB: <a href="#https://https://github.com/RR1998">https://github.com/RR1998</a></p>
+    <br>
+
+</footer>
+</body>
+</html>
