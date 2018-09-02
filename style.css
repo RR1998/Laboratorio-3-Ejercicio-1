@@ -1,31 +1,225 @@
-.white{
-    background-image: linear-gradient(0deg,white,white);
-
+.Tamanos{
+    font-family: fantasy;
+    border: none;
 }
-.white:hover{
-    background-blend-mode: darken;
-    background-color: rgb(255, 0, 0,0.5);
+.Normal{
+    width: 90px;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 30px;
+    
+    
 }
-.black{
-    background: black;
-    color: white;
-    }
-.black:hover{
-    background-blend-mode: lighten;
-    background-color:  rgb(255, 0, 0,0.5);
-}
-td{
-    height: 4em ;
-    width: 4em
-;
-}
-div{
-    text-align: center;
+.Pequeno{
+    width: 90px;
+    height: 30px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 30px;
 }
 
-#tablero .selccionador {
-    display: none;
+.Grande{
+    width: 130px;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 30px;
 }
-#tablero td:hover .selccionador{
-    display: block;
+
+.Esmeralda{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #57d68d;
+    color:white;
+    border-radius: 50px;
+}
+.Cielo{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #5cace2;
+    color:white;
+    border-radius: 50px;
+}
+.Amatista{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #ae7ac4;
+    color:white;
+    border-radius: 50px;
+}
+.Asfalto{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #5c6d7e;
+    color:white;
+    border-radius: 50px;
+}
+.Topazio{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #ea974e;
+    color:white;
+    border-radius: 50px;
+}
+.Rubi{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #eb6f62;
+    color:white;
+    border-radius: 50px;
+}
+.Simple{
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#858585;
+    border-radius: 50px;
+}
+.Esme{
+    width: auto;
+    height: 40px;
+    border: 1px solid #57d68d;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#57d68d;
+    border-radius: 50px;
+}
+.Ci{
+    width: auto;
+    height: 40px;
+    border: 1px solid #5cace2;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#5cace2;
+    border-radius: 50px;
+}
+.Ama{
+    width: auto;
+    height: 40px;
+    border: 1px solid #ae7ac4;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#ae7ac4;
+    border-radius: 50px;
+}
+
+.Asfa{
+    width: auto;
+    height: 40px;
+    border: 1px solid #5c6d7e;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#5c6d7e;
+    border-radius: 50px;
+}
+.Topa{
+        width: auto;
+        height: 40px;
+        border: 1px solid #ea974e;
+        padding: 5px;
+        font-size: 1rem;
+        margin: 10px;
+        background-color: white;
+        color:#ea974e;
+        border-radius: 50px;
+}
+.Ru{
+    width: auto;
+    height: 40px;
+    border: 1px solid #eb6f62;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#eb6f62;
+    border-radius: 50px;
+}
+
+.LargoAsfalto{
+    width: 200px;
+    height: 60px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #5c6d7e;
+    color:white;
+    border-radius: 50px;
+}
+
+.Bordedelcielo{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #5cace2;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#5cace2;
+    border-radius: 50px;
+}
+
+.pequenaEsmeralda{
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #57d68d;
+    color:white;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    border: 1px;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 30px;
+}
+.GBR{
+    width: auto;
+    height: 40px;
+    border: 3px solid #eb6f62;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#eb6f62;
+    border-radius: 50px;
 }
